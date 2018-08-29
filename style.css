@@ -1,0 +1,52 @@
+body
+{
+	background-color: white;
+	color: black;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 !important;
+}
+.header
+{
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+	font-size: 50px;
+}
+.czesc
+{
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+}
+.content
+{
+	color: red;
+	margin: 10px;
+	width: 80%;
+	margin-left:auto; 
+	margin-right:auto;
+}
+#ppierwszy
+{
+	font-size: 15px;
+}
+#pdrugi
+{
+	font-size: 20px;
+}
+table#menu
+{
+	width:80%;
+	text-align: center;
+	margin-left:auto; 
+	margin-right:auto;
+}
+table#menu th
+{
+	background-color: green;
+}
