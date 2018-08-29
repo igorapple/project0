@@ -23,6 +23,18 @@ body
 	text-align: center;
 	padding: 10px;
 }
+@media (min-width: 500px)
+{
+	content::before{
+		background-color:grey;
+	}
+}
+@media (max-width: 499px)
+{
+	content::before{
+		background-color:blue;
+	}
+}
 .content
 {
 	color: red;
@@ -49,4 +61,21 @@ table#menu
 table#menu th
 {
 	background-color: green;
+}
+#pzlista
+{
+	background-color:blue;
+	font-size: 16px;
+	color: black;
+	width: 80%;
+	margin-left:auto; 
+	margin-right:auto;
+}
+ul
+{
+	background-color: green;
+	font-size: 16px;
+	width: 80%;
+	margin-left:auto; 
+	margin-right:auto;
 }
